@@ -1,13 +1,16 @@
-# 💼 Responsive Mini Portfolio
-## [Watch it on youtube](https://youtu.be/mq0xJxOTiYo)
-### 💼 Responsive Mini Portfolio
+---
+```python
+class say_hello:
 
-- Responsive mini portfolio website Using HTML CSS & JavaScript
-- Contains animations css.
-- Includes a light and dark mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+    def __init__(self, text) -> None:
+        self.text = text
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+    def __str__(self) -> str:
+        return self.text
 
-![preview img](/preview.png)
+    def __repr__(self) -> str:
+        return self.__str__()
+
+if __name__ == "__main__":
+    print(say_hello("Hello there 👋, I'm Zek Wazaowsky, Nice to meet you all!"))
+```
